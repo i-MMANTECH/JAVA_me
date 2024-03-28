@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+class Main {
+  public static void main(String[] args) {
+    char vowels[] = {'e', 'u', 'a', 'i', 'o'};
+
+    Arrays.sort(vowels);
+
+    System.out.println(Arrays.toString(vowels));
+  }
+}

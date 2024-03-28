@@ -1,0 +1,12 @@
+class Main {
+  public static void main(String[] args) {
+    String string = "The Sky is Blue.";
+
+    String updatedString = string.replace("Blue", "Red");
+    
+    // System.out.println(string.replace("Blue", "Red"));
+    
+    
+    System.out.println(updatedString);
+  }
+}

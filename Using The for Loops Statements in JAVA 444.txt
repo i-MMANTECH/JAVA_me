@@ -1,0 +1,14 @@
+package iMMANTECH;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String [] fruits = {"Apple", "Mango", "Orange"};
+		// writing the for loop in a more professional way
+		
+		for (int i = fruits.length; i > 0; i--)
+			System.out.println(fruits[i]);
+	}
+	
+}
+// I'm not sure if this code is right :(

@@ -1,0 +1,13 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        int income = 120_000;
+        String className;
+        if (income > 150_000)
+            className = "First";
+        else
+            className = "Economy";
+        System.out.println(className);
+    }
+}

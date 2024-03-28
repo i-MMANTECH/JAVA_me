@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+    String name = "Emmanuel Mobolaji Aro";
+      
+
+    System.out.println(name.length());
+  }
+}

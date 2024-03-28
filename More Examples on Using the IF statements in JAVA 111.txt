@@ -1,0 +1,15 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        // More on Using the IF Statements
+
+        String role = "Admin";
+        if (role == "Admin")
+            System.out.println("You're an Admin");
+        else if (role == "Moderator")
+            System.out.println("You're a Moderator");
+        else
+            System.out.println("You're a Guest");
+    }
+}

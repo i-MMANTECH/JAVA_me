@@ -1,0 +1,41 @@
+//Double quoting a double quoted string
+package com.iMMANTECH;
+public class Main {
+    public static void main(String[] args) {
+        // c:\Windows\...
+        String message = "Hello \"iMMAN\"";
+        System.out.println(message);
+    }
+}
+
+// new line
+package com.iMMANTECH;
+public class Main {
+    public static void main(String[] args) {
+        // c:\Windows\...
+        String message = "Hello \niMMAN\\";
+        System.out.println(message);
+    }
+}
+
+
+\\ Using the double backward slash
+package com.iMMANTECH;
+public class Main {
+    public static void main(String[] args) {
+        // c:\Windows\...
+        String message = "Hello \\iMMAN\\";
+        System.out.println(message);
+    }
+}
+
+
+// using tab i.e space in a string
+package com.iMMANTECH;
+public class Main {
+    public static void main(String[] args) {
+        // c:\Windows\...
+        String message = "Hello \tiMMAN\\";
+        System.out.println(message);
+    }
+}

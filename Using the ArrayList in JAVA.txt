@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+    numbers.add(5);
+    numbers.add(3);
+    numbers.add(1);
+    numbers.add(4);
+    numbers.add(2);
+
+    
+
+    
+    // numbers.sort(Comparator.reverseOrder()); sort using reverse order
+
+    // numbers.sort(Comparator.naturalOrder()); sort using natural order
+
+    // numbers.set(2, Integer.valueOf(30)); replacing
+
+    // numbers.remove(4); // removing a particular integer Value -Integer.valueOf(4)-
+
+    System.out.println(numbers.toString());
+ }
+}

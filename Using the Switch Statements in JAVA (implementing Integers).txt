@@ -1,0 +1,18 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        // integers can also be used in switch statements
+        int role = 1;
+        switch (role) {
+            case 1:
+                System.out.println("You're a CEO");
+                break;
+            case 2:
+                System.out.println("You're an Admin");
+                break;
+            default:
+                System.out.println("You're a Moderator");
+        }
+    }
+}

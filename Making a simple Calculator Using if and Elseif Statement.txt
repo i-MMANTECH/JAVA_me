@@ -1,0 +1,54 @@
+package com.iMMANTECH;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanMe = new Scanner(System.in);
+
+        System.out.println("This is a Calculator Sensor");
+
+        System.out.print("Enter the First Number:");
+        double number1 = scanMe.nextDouble();
+
+        System.out.print("Enter Second Number:");
+        double number2 = scanMe.nextDouble();
+
+        scanMe.nextLine();
+
+        System.out.println("What operation do you Want to Perform");
+
+        String operation = scanMe.nextLine();
+
+        // Sum for Addition
+        if(operation.equals("sum")) {
+
+            System.out.printf("%f + %f = %f", number1,number2, number1 + number2);
+
+        //00    sub for subtraction
+        }else if (operation.equals("sub")){
+            System.out.printf("%f - %f = %f", number1,number2, number1 - number2);
+
+
+            // mul for multiplicatio
+        }else if (operation.equals("mul")){
+            System.out.printf("%f * %f = %f", number1,number2, number1 * number2);
+
+
+        // div for division
+        } else if (operation.equals("div")){
+
+            if(number2 == 0){
+
+                System.out.println("Cannot divide by ZERO(0).");
+            }else{
+
+                System.out.printf("%f / %f = %f", number1,number2, number1 / number2);
+            }
+        }else{
+            System.out.printf("%s is not a supported operation!", operation);
+        }
+
+        scanMe.close();
+    }
+}

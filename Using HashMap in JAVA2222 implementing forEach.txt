@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+class Main {
+  public static void main(String[] args) {
+    HashMap<String, Integer> examScores = new HashMap<String, Integer>();
+
+    examScores.put("Math ", 80);
+    examScores.put("Physics ", 70);
+    examScores.put("English ", 95);
+    examScores.put("Computer Programming ", 95);
+    examScores.put("Human Computer Interaction ", 100);
+
+    examScores.forEach((subject, score) -> {
+      System.out.println(subject + " - " + score);
+    });
+
+ }
+}

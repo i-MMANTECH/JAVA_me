@@ -1,0 +1,7 @@
+class Main {
+  public static void main(String[] args) {
+    String string = "The Sky is Blue.";
+    
+    System.out.println(string.contains("Sky"));
+  }
+}

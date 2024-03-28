@@ -1,0 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+    String name = "Emmanuel Mobolaji Aro";
+    String country = "Nigeria";
+    int age = 19;
+    String company = "Bitrue";
+    double gpa = 3.8;
+    char percentSign = '%';
+    boolean amITellingTheTruth = false;
+
+    String formattedString = String.format("My name is %s. I am from %s. I am %d years old. I work for %s. My GPA is currently %f. I have attended 100%c of my university classes. These are all %b claims.", name, country, age, company, gpa, percentSign, amITellingTheTruth);
+
+    System.out.println(formattedString);
+
+    
+    // System.out.println("Hello World! I am " + name + ". I am from " + country + " and I am " + age + " years old. I work for the " + company + ". ");
+  }
+}
+

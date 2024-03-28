@@ -1,0 +1,9 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i <= 5; i--)
+            // the + i function implemented in the println function would index the String Hello World multiple times :(
+            System.out.println("Hello World!" + i);
+    }
+}

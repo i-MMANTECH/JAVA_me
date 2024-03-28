@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+class Main {
+  public static void main(String[] args) {
+    char vowels[] = {'e', 'u', 'a', 'o', 'i'};
+
+    Arrays.fill(vowels, 'x');
+
+    System.out.println(Arrays.toString(vowels));
+ }
+}

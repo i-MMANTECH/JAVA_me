@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanMe = new Scanner(System.in);
+
+    System.out.print("What is your name? \n");
+    String name = scanMe.nextLine();
+
+    System.out.printf("Hello %s. How old are You? ", name);
+    int age = Integer.parseInt(scanMe.nextLine());
+
+    
+    System.out.printf("%d is an excellent age to start programming. What language do you prefer? ", age);
+    String language = scanMe.nextLine();
+
+    System.out.printf("%s is a very popular programming language.", language);
+
+    scanMe.close();
+  }
+}

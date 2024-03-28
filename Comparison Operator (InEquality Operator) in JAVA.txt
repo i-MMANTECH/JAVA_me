@@ -1,0 +1,11 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        int x = 1;
+        int y = 5;
+
+        // Would Return a Boolean Value
+        System.out.println(x!=y);
+    }
+}

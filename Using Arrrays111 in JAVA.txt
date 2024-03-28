@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+class Main {
+  public static void main(String[] args) {
+    char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+
+    // changing a particular vowel letterr in an array
+    vowels[2] = 'x';
+
+    System.out.println(vowels.length);
+  }
+}

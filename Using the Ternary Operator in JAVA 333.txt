@@ -1,0 +1,12 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        // writing the piece of Code More professionally
+        int income = 120_000;
+        String className = "Economy";
+        if (income > 100_000)
+            className = "First";
+        System.out.println(className);
+    }
+}

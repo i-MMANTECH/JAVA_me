@@ -1,0 +1,19 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        String role = "Admin";
+
+// reduces code 
+        switch (role) {
+            case "Admin":
+                System.out.println("You're an Admin");
+                break;
+            case "Moderator":
+                System.out.println("You're a Moderator");
+                break;
+            default:
+                System.out.println("You're a Guest");
+        }
+    }
+}
