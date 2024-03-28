@@ -1,0 +1,12 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        // Writing a more improved Code
+        int income = 120_000;
+        // Can also be added in a parenthesis
+        boolean hasHighIncome = (income > 100_000);
+
+        System.out.println(hasHighIncome);
+    }
+}

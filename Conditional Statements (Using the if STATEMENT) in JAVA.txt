@@ -1,0 +1,15 @@
+package com.iMMANTECH;
+
+public class Main {
+    public static void main(String[] args) {
+        int temperature = 35;
+        if (temperature > 30) {
+            System.out.println("It's a Hot Day");
+            System.out.println("Drink Water");
+        }
+        else if (temperature > 20) {
+            System.out.println("Beautiful Day");
+        }else
+            System.out.println("Cold Day");
+    }
+}
